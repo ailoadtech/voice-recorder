@@ -1,0 +1,53 @@
+<svg width="128" height="128" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Background with gradient -->
+  <defs>
+    <linearGradient id="bg-gradient-128" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2563EB;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="mic-gradient-128" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E5E7EB;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Rounded background -->
+  <rect width="128" height="128" fill="url(#bg-gradient-128)" rx="23.04"/>
+  
+  <!-- Microphone body -->
+  <rect x="48" y="22.4" 
+        width="32" height="44.8" 
+        fill="url(#mic-gradient-128)" rx="12.8"/>
+  
+  <!-- Microphone grille lines -->
+  <line x1="53.333333333333336" y1="33.599999999999994" 
+        x2="74.66666666666667" y2="33.599999999999994" 
+        stroke="#3B82F6" stroke-width="1.92" stroke-linecap="round"/>
+  <line x1="53.333333333333336" y1="44.8" 
+        x2="74.66666666666667" y2="44.8" 
+        stroke="#3B82F6" stroke-width="1.92" stroke-linecap="round"/>
+  <line x1="53.333333333333336" y1="56" 
+        x2="74.66666666666667" y2="56" 
+        stroke="#3B82F6" stroke-width="1.92" stroke-linecap="round"/>
+  
+  <!-- Microphone stand -->
+  <path d="M 44.8 73.6 
+           Q 64 86.39999999999999 
+           83.2 73.6" 
+        stroke="white" stroke-width="5.12" fill="none" stroke-linecap="round"/>
+  <line x1="64" y1="67.19999999999999" 
+        x2="64" y2="86.39999999999999" 
+        stroke="white" stroke-width="5.12" stroke-linecap="round"/>
+  
+  <!-- Sound waves (decorative) -->
+  <path d="M 89.6 34.559999999999995 
+           Q 99.2 44.8 
+           89.6 55.04" 
+        stroke="white" stroke-width="3.2" fill="none" 
+        stroke-linecap="round" opacity="0.6"/>
+  <path d="M 99.2 29.439999999999998 
+           Q 112 44.8 
+           99.2 60.16" 
+        stroke="white" stroke-width="3.2" fill="none" 
+        stroke-linecap="round" opacity="0.4"/>
+</svg>

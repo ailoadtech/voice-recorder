@@ -1,0 +1,28 @@
+# WSL Configuration Example
+# Place this file at: C:\Users\<YourUsername>\.wslconfig
+# Restart WSL after changes: wsl --shutdown
+
+[wsl2]
+# Limit memory usage (adjust based on your system)
+memory=4GB
+
+# Limit CPU usage (adjust based on your system)
+processors=2
+
+# Enable localhost forwarding (default is true)
+localhostForwarding=true
+
+# Swap size
+swap=2GB
+
+# Disable page reporting (can improve performance)
+pageReporting=false
+
+# Network settings
+[experimental]
+# Enable DNS tunneling for better network performance
+dnsTunneling=true
+
+# Enable auto memory reclaim
+autoMemoryReclaim=gradual
+

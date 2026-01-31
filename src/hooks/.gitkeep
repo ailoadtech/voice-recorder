@@ -1,0 +1,7 @@
+# Hooks Directory
+
+This directory contains custom React hooks for:
+- Voice recording
+- Hotkey management
+- State management
+- Audio playback

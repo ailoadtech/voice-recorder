@@ -1,0 +1,7 @@
+# Services Directory
+
+This directory contains external service integrations and service wrappers:
+- transcription/: Voice-to-text service
+- llm/: LLM integration
+- audio/: Audio recording service
+- storage/: Data persistence service

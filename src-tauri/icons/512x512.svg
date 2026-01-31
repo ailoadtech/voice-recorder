@@ -1,0 +1,53 @@
+<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background with gradient -->
+  <defs>
+    <linearGradient id="bg-gradient-512" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2563EB;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="mic-gradient-512" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E5E7EB;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Rounded background -->
+  <rect width="512" height="512" fill="url(#bg-gradient-512)" rx="92.16"/>
+  
+  <!-- Microphone body -->
+  <rect x="192" y="89.6" 
+        width="128" height="179.2" 
+        fill="url(#mic-gradient-512)" rx="51.2"/>
+  
+  <!-- Microphone grille lines -->
+  <line x1="213.33333333333334" y1="134.39999999999998" 
+        x2="298.6666666666667" y2="134.39999999999998" 
+        stroke="#3B82F6" stroke-width="7.68" stroke-linecap="round"/>
+  <line x1="213.33333333333334" y1="179.2" 
+        x2="298.6666666666667" y2="179.2" 
+        stroke="#3B82F6" stroke-width="7.68" stroke-linecap="round"/>
+  <line x1="213.33333333333334" y1="224" 
+        x2="298.6666666666667" y2="224" 
+        stroke="#3B82F6" stroke-width="7.68" stroke-linecap="round"/>
+  
+  <!-- Microphone stand -->
+  <path d="M 179.2 294.4 
+           Q 256 345.59999999999997 
+           332.8 294.4" 
+        stroke="white" stroke-width="20.48" fill="none" stroke-linecap="round"/>
+  <line x1="256" y1="268.79999999999995" 
+        x2="256" y2="345.59999999999997" 
+        stroke="white" stroke-width="20.48" stroke-linecap="round"/>
+  
+  <!-- Sound waves (decorative) -->
+  <path d="M 358.4 138.23999999999998 
+           Q 396.8 179.2 
+           358.4 220.16" 
+        stroke="white" stroke-width="12.8" fill="none" 
+        stroke-linecap="round" opacity="0.6"/>
+  <path d="M 396.8 117.75999999999999 
+           Q 448 179.2 
+           396.8 240.64" 
+        stroke="white" stroke-width="12.8" fill="none" 
+        stroke-linecap="round" opacity="0.4"/>
+</svg>
